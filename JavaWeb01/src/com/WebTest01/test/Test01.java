@@ -10,5 +10,6 @@ public class Test01 {
         PetService petService = (PetService) ServiceFactory.getService(new PetServiceImpl());
         Pet pet = new Pet("ttt", "S", 9999);
         petService.deletePet(pet);
+        int test;
     }
 }
