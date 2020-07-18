@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="JavaWeb01:war exploded">
+    <output-path>$PROJECT_DIR$/../../Tomcat/webapps/abc</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="JavaWeb01/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JavaWeb01" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/JavaWeb01/web/WEB-INF/lib/dom4j-1.6.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/JavaWeb01/web/WEB-INF/lib/druid-1.1.22.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/JavaWeb01/web/WEB-INF/lib/commons-dbutils-1.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/JavaWeb01/web/WEB-INF/lib/mysql-connector-java-8.0.16.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

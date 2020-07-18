@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<books>
+    <book>
+        <name>挪威的森林</name>
+        <author>村上春树</author>
+        <genre>文学</genre>
+    </book>
+    <book>
+        <name>三体</name>
+        <author>刘慈欣</author>
+        <genre>科幻</genre>
+    </book>
+</books>

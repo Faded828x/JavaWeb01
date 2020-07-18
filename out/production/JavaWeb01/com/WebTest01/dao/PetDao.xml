@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.WebTest01.dao.PetDao">
+    <select id="getByName" parameterType="java.lang.String" resultType="com.WebTest01.domain.Pet">
+        select * from pet where name = #{name}
+    </select>
+    <select id="getAll" resultType="com.WebTest01.domain.Pet">
+        select * from pet
+    </select>
+    <insert id="insertPet">
+        insert into pet(name,age,owner) values(#{name},#{age},#{owner})
+    </insert>
+    <update id="updatePet">
+        update pet set name = #{name}, owner = #{owner} where age = #{age}
+    </update>
+    <delete id="deletePet">
+        delete from pet where age = #{age}
+    </delete>
+</mapper>
